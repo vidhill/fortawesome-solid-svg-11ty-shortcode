@@ -1,4 +1,4 @@
-# @vidhill/fortawesome-brands-11ty-shortcode
+# @vidhill/fortawesome-solid-11ty-shortcode
 
 [![CircleCI](https://circleci.com/gh/vidhill/fortawesome-brands-svg-11ty-shortcode/tree/main.svg?style=shield)](https://circleci.com/gh/vidhill/fortawesome-brands-svg-11ty-shortcode/tree/main)
 
@@ -9,7 +9,7 @@ Allows [@fortawesome/free-brands-svg-icons](https://www.npmjs.com/package/@forta
 See brand icon names here: [font-awesome-5-brands](https://fortawesome.com/sets/font-awesome-5-brands)
 
 ```bash
-$ npm install @vidhill/fortawesome-brands-11ty-shortcode --save
+$ npm install @vidhill/fortawesome-solid-11ty-shortcode --save
 ```
 
 ## Setup
@@ -19,7 +19,7 @@ $ npm install @vidhill/fortawesome-brands-11ty-shortcode --save
 ```javascript
 const {
     fortawesomeBrandsPlugin,
-} = require('@vidhill/fortawesome-brands-11ty-shortcode');
+} = require('@vidhill/fortawesome-solid-11ty-shortcode');
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(fortawesomeBrandsPlugin);
@@ -35,7 +35,7 @@ module.exports = function (eleventyConfig) {
 ```javascript
 const {
     fortawesomeBrandsShortcode,
-} = require('@vidhill/fortawesome-brands-11ty-shortcode');
+} = require('@vidhill/fortawesome-solid-11ty-shortcode');
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode('fortawesomeBrand', fortawesomeBrandsShortcode);
