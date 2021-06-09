@@ -23,13 +23,13 @@
     },
     "author": "David Hill",
     "bugs": {
-        "url": "https://github.com/vidhill/fortawesome-brands-svg-11ty-shortcode/issues"
+        "url": "https://github.com/vidhill/fortawesome-solid-svg-11ty-shortcode/issues"
     },
-    "homepage": "https://github.com/vidhill/fortawesome-brands-svg-11ty-shortcode#readme",
+    "homepage": "https://github.com/vidhill/fortawesome-solid-svg-11ty-shortcode#readme",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vidhill/fortawesome-brands-svg-11ty-shortcode.git"
+        "url": "git+https://github.com/vidhill/fortawesome-solid-svg-11ty-shortcode.git"
     },
     "keywords": [
         "eleventy",
