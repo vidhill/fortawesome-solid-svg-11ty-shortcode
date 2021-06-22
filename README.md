@@ -4,9 +4,9 @@
 
 [Eleventy/11ty](https://www.11ty.dev/) shortcode.
 
-Allows [@fortawesome/free-brands-svg-icons](https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons) to be embedded as inline svg into 11ty templates.
+Allows [@fortawesome/free-solid-svg-icons](https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons) to be embedded as inline svg into 11ty templates.
 
-See brand icon names here: [font-awesome-5-brands](https://fortawesome.com/sets/font-awesome-5-brands)
+See solid icon names here: [font-awesome-5-solid](https://fortawesome.com/sets/font-awesome-5-solid)
 
 ```bash
 $ npm install @vidhill/fortawesome-solid-11ty-shortcode --save
@@ -18,11 +18,11 @@ $ npm install @vidhill/fortawesome-solid-11ty-shortcode --save
 
 ```javascript
 const {
-    fortawesomeBrandsPlugin,
+    fortawesomeSolidPlugin,
 } = require('@vidhill/fortawesome-solid-11ty-shortcode');
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPlugin(fortawesomeBrandsPlugin);
+    eleventyConfig.addPlugin(fortawesomeSolidPlugin);
 
     return {
         // normal eleventy config
@@ -34,11 +34,11 @@ module.exports = function (eleventyConfig) {
 
 ```javascript
 const {
-    fortawesomeBrandsShortcode,
+    fortawesomeSolidShortcode,
 } = require('@vidhill/fortawesome-solid-11ty-shortcode');
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addShortcode('fortawesomeBrand', fortawesomeBrandsShortcode);
+    eleventyConfig.addShortcode('fortawesomeSolid', fortawesomeSolidShortcode);
 
     return {
         // normal eleventy config
@@ -51,7 +51,7 @@ module.exports = function (eleventyConfig) {
 ### Input
 
 ```javascript
-{% fortawesomeBrand 'github' %}
+{% fortawesomeSolid 'bell' %}
 ```
 
 #### Output
@@ -60,12 +60,12 @@ module.exports = function (eleventyConfig) {
 <svg
     aria-hidden="true"
     focusable="false"
-    data-prefix="fab"
-    data-icon="github"
-    class="svg-inline--fa fa-github fa-w-16"
+    data-prefix="fas"
+    data-icon="bell"
+    class="svg-inline--fa fa-bell fa-w-14 "
     role="img"
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 496 512"
+    viewBox="0 0 448 512"
 >
     <path fill="currentColor" d="M165.9 397.4c0....4-2.3-4-3.3-5.6-2z"></path>
 </svg>
