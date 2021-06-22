@@ -76,7 +76,7 @@ module.exports = function (eleventyConfig) {
 Specifying a css class to be added to the `svg` element
 
 ```javascript
-{% fortawesomeBrand 'github', "social-icon" %}
+{% fortawesomeSolid 'bell', "social-icon" %}
 ```
 
 #### Output
@@ -85,12 +85,12 @@ Specifying a css class to be added to the `svg` element
 <svg
     aria-hidden="true"
     focusable="false"
-    data-prefix="fab"
-    data-icon="github"
-    class="svg-inline--fa fa-github fa-w-16 social-icon"
+    data-prefix="fas"
+    data-icon="bell"
+    class="svg-inline--fa fa-bell fa-w-14 social-icon"
     role="img"
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 496 512"
+    viewBox="0 0 448 512"
 >
     <path fill="currentColor" d="M165.9 397.4c0....4-2.3-4-3.3-5.6-2z"></path>
 </svg>
