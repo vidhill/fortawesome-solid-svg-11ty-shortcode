@@ -1,6 +1,6 @@
 # @vidhill/fortawesome-solid-11ty-shortcode
 
-[![CircleCI](https://circleci.com/gh/vidhill/fortawesome-brands-svg-11ty-shortcode/tree/main.svg?style=shield)](https://circleci.com/gh/vidhill/fortawesome-brands-svg-11ty-shortcode/tree/main)
+[![CircleCI](https://circleci.com/gh/vidhill/fortawesome-solid-svg-11ty-shortcode/tree/main.svg?style=shield)](https://circleci.com/gh/vidhill/fortawesome-solid-svg-11ty-shortcode/tree/main)
 
 [Eleventy/11ty](https://www.11ty.dev/) shortcode.
 
