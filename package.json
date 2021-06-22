@@ -62,5 +62,8 @@
     "dependencies": {
         "@fortawesome/free-solid-svg-icons": "^5.15.3",
         "@vidhill/fortawesome-11ty-shortcode-helper": "^1.0.1"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
