@@ -2,6 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/vidhill/fortawesome-solid-svg-11ty-shortcode/tree/main.svg?style=shield)](https://circleci.com/gh/vidhill/fortawesome-solid-svg-11ty-shortcode/tree/main)
 
+[![NPM Version](https://img.shields.io/npm/v/@vidhill/fortawesome-solid-11ty-shortcode?style=flat-square)](https://www.npmjs.com/package/@vidhill/fortawesome-solid-11ty-shortcode)
+
 [Eleventy/11ty](https://www.11ty.dev/) shortcode.
 
 Allows [@fortawesome/free-solid-svg-icons](https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons) to be embedded as inline svg into 11ty templates.
