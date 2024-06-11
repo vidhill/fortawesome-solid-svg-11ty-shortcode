@@ -61,8 +61,8 @@
         "watch": "^0.13.0"
     },
     "dependencies": {
-        "@fortawesome/free-solid-svg-icons": "^5.15.3",
-        "@vidhill/fortawesome-11ty-shortcode-helper": "^1.0.1"
+        "@fortawesome/free-solid-svg-icons": "^6.5.2",
+        "@vidhill/fortawesome-11ty-shortcode-helper": "^1.1.0"
     },
     "publishConfig": {
         "access": "public"
